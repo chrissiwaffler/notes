@@ -1,3 +1,7 @@
+---
+title: "Welcome"
+---
+
 Hi Mom!
 
-[Hello World](./hello.md)
+[[Hello World|Hello World!]]

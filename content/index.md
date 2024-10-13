@@ -4,4 +4,4 @@ title: "Welcome"
 
 Hi Mom!
 
-[[Hello World|Hello World!]]
+[[hello world|Hello World!]]

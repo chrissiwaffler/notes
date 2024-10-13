@@ -1,3 +1,1 @@
 Hi Mom!
-
-Hello World.

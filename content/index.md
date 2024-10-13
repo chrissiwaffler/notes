@@ -1,4 +1,4 @@
 Hi Mom!
 
-[Hello World](/hello)
+[Hello World](./hello)
 

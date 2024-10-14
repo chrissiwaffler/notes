@@ -3,6 +3,8 @@ title: Useful Git Commands
 tags:
   - terminal
   - ci
+# TODO: remove later again
+draft: true
 ---
 
 This page is focused on providing and explaining the commands I most commonly use to deal with git via the terminal. I can only recommend everyone knowing at least the [[git#Basics|basic commands]] even if you use [[git#external tooling|external tooling]].

@@ -18,6 +18,7 @@ Even though external tools add an unnecessary amount of abstraction to your work
   git init
   ```
 - preparing a commit is called **staging**: it means you add files to the index that will be used for the next commit
+- TODO: undo operation of git add -> git reset (???)
 	```bash
 	# adding a single file
 	git add path/to/file
@@ -86,10 +87,11 @@ git checkout main utils/arc_utils.py to reset a file
 ## Branching
 
 ## Working with remote
-- pull changes: synchronize your local repository with incoming changes from the remote repository+
-	- TODO:
-	- explain the problems that might occur here -> merge conflicts
-	- conflicts with un-commited changes
+- TODO: git clone
+- TODO: git upstream einrichten
+- pull changes: synchronize your local repository with incoming changes from the remote repository
+	- be careful: merge conflicts can already happen here
+	- no local changes and want to pull the newest changes
 	```bash
 	# just update the information you have about the remote repository 
 	# without actually updating your files (nothing happens)
@@ -101,10 +103,15 @@ git checkout main utils/arc_utils.py to reset a file
 	# goated command
 	git pull --rebase --autostash 
 	```
-
+	- TODO:
+	- explain the problems that might occur here -> merge conflicts
+	- conflicts with un-commited changes
+	
 ## Fixing mistakes
 
 ## Advanced
+- TODO: git reset hard and soft
+- 
 
 ### Submodules
 _on your own ..._

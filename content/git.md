@@ -27,7 +27,16 @@ Even though external tools add an unnecessary amount of abstraction to your work
 	
 	# adding everything
 	git add --all
+	
+	# better: add everything from the current directory
+	# assuming you are in the root directory
+	git add .
 	```
+> [!Info]
+>  Sometimes, git doesn't track a new file yet ... 
+>  This also means that `git add --all` doesn't add it to the index.
+> You have to explicitly add the folder or the file to the index.
+	
 - making a **commit**
 	```bash
 	# normal commit with message

@@ -45,7 +45,7 @@ Even though external tools add an unnecessary amount of abstraction to your work
 	# don't do this unless you want to make your colleges hate you
 	git push --force	
 	```
-- 
+
 ## Helpers
 
 > [!tip] output the current state of your git repository

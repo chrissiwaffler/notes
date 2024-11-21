@@ -17,7 +17,7 @@ Even though external tools add an unnecessary amount of abstraction to your work
   ```bash
   git init
   ```
-- preparing a commit is called staging; it means you add files to the index that will be used for the next commit
+- preparing a commit is called staging: it means you add files to the index that will be used for the next commit
 	```bash
 	# adding a single file
 	git add path/to/file
@@ -38,7 +38,7 @@ Even though external tools add an unnecessary amount of abstraction to your work
 	git commit -am "feat: adding all files automatically"	
 	```
 - publishing your changes: often you not only work alone but, want to synchronize your local repository with a remote repository (e.g., Github) to enable collaboration
-	```
+	```bash
 	# publish your changes to the default origin
 	git push
 	

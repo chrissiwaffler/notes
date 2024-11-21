@@ -28,8 +28,24 @@ Even though external tools add an unnecessary amount of abstraction to your work
 	# adding everything
 	git add --all
 	```
+- making a commit
+	```bash
+	# normal commit with message
+	git commit -m "feat: your first commit"
 
-
+	# commit while also adding all files
+	# -> no need for an intermediate "add" step
+	git commit -am "feat: adding all files automatically"	
+	```
+- publishing your changes: often you not only work alone but, want to synchronize your local repository with a remote repository (e.g., Github) to enable collaboration
+	```
+	# publish your changes to the default origin
+	git push
+	
+	# don't do this unless you want to make your colleges hate you
+	git push --force	
+	```
+- 
 ## Helpers
 
 > [!tip] output the current state of your git repository

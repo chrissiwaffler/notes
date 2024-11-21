@@ -91,21 +91,28 @@ git checkout main utils/arc_utils.py to reset a file
 - TODO: git upstream einrichten
 - pull changes: synchronize your local repository with incoming changes from the remote repository
 	- be careful: merge conflicts can already happen here
-	- no local changes and want to pull the newest changes
-	```bash
-	# just update the information you have about the remote repository 
-	# without actually updating your files (nothing happens)
-	git fetch
+	- no local changes and you want to pull the newest changes
+		```bash
+		# just update the information you have about the remote repository 
+		# without actually updating your files (nothing happens)
+		git fetch
+	
+		# update to your local files with changes from remote
+		git pull
+		```
+	- you previously had the newest changes, but made some local progress after that; that could be file changes and even some commits;
+	  **important**: you didn't change the files that had been updated by the remote repository (otherwise you will get merge conflicts)
 
-	# update to your local files with changes from remote
-	git pull
-
-	# goated command
-	git pull --rebase --autostash 
-	```
-	- TODO:
-	- explain the problems that might occur here -> merge conflicts
-	- conflicts with un-commited changes
+		```bash
+		# goated command
+		git pull --rebase --autostash 
+		```
+	- you changed files that were also changed by the remote repository -> merge conflicts!
+		```bash
+		# no worries
+		git pull —-merge
+		```
+		After that, you can resolve the merge via your text editor and select the changes you want to keep. Then you can **commit the merge**.
 	
 ## Fixing mistakes
 

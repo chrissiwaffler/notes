@@ -90,13 +90,14 @@ git checkout main utils/arc_utils.py to reset a file
 - TODO: git clone
 - TODO: git upstream einrichten
 - pull changes: synchronize your local repository with incoming changes from the remote repository
+	```bash
+	# just update the information you have about the remote repository 
+	# without actually updating your files (nothing happens)
+	git fetch
+	```
 	- be careful: merge conflicts can already happen here
 	- no local changes and you want to pull the newest changes
-		```bash
-		# just update the information you have about the remote repository 
-		# without actually updating your files (nothing happens)
-		git fetch
-	
+		```bash	
 		# update to your local files with changes from remote
 		git pull
 		```

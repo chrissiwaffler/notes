@@ -17,6 +17,18 @@ Even though external tools add an unnecessary amount of abstraction to your work
   ```bash
   git init
   ```
+- preparing a commit is called staging; it means you add files to the index that will be used for the next commit
+	```bash
+	# adding a single file
+	git add path/to/file
+	
+	# adding the files of a whole folder
+	git add path/to/folder/
+	
+	# adding everything
+	git add --all
+	```
+
 
 ## Helpers
 
@@ -56,6 +68,7 @@ git checkout main utils/arc_utils.py to reset a file
 ## Advanced
 
 ### Submodules
+_on your own ..._
 
 ## External Tooling
 

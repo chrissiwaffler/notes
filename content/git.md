@@ -86,8 +86,11 @@ git checkout main utils/arc_utils.py to reset a file
 ## Branching
 
 ## Working with remote
-- pull changes: synchronize your local repository with incoming changes from the remote repository
-	```
+- pull changes: synchronize your local repository with incoming changes from the remote repository+
+	- TODO:
+	- explain the problems that might occur here -> merge conflicts
+	- conflicts with un-commited changes
+	```bash
 	# just update the information you have about the remote repository 
 	# without actually updating your files (nothing happens)
 	git fetch

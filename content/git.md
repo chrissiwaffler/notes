@@ -84,6 +84,9 @@ Even though external tools add an unnecessary amount of abstraction to your work
 
 git checkout main utils/arc_utils.py to reset a file
 
+## Stashing
+
+
 ## Branching
 
 ## Working with remote

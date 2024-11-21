@@ -28,8 +28,7 @@ Even though external tools add an unnecessary amount of abstraction to your work
 	# adding everything
 	git add --all
 	
-	# better: add everything from the current directory
-	# assuming you are in the root directory
+	# or: add everything from the current directory
 	git add .
 	```
 > [!Info]
@@ -87,6 +86,18 @@ git checkout main utils/arc_utils.py to reset a file
 ## Branching
 
 ## Working with remote
+- pull changes: synchronize your local repository with incoming changes from the remote repository
+	```
+	# just update the information you have about the remote repository 
+	# without actually updating your files (nothing happens)
+	git fetch
+
+	# update to your local files with changes from remote
+	git pull
+
+	# goated command
+	git pull --rebase --autostash 
+	```
 
 ## Fixing mistakes
 

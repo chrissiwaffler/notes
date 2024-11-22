@@ -33,7 +33,7 @@ Even though external tools add an unnecessary amount of abstraction to your work
 	git add .
 	```
 > [!Info]
->  Sometimes, git doesn't track a new file yet ... 
+>  Sometimes, git doesn't track a new file yet ...  (Geht bei git commit -am nicht immer ...)
 >  This also means that `git add --all` doesn't add it to the index.
 > You have to explicitly add the folder or the file to the index.
 	
@@ -114,7 +114,7 @@ git checkout main utils/arc_utils.py to reset a file
 	- you changed files that were also changed by the remote repository -> merge conflicts!
 		```bash
 		# no worries
-		git pull —-merge
+		git pull —-rebase
 		```
 		After that, you can resolve the merge via your text editor and select the changes you want to keep. Then you can **commit the merge**.
 	

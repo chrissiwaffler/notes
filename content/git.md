@@ -81,12 +81,23 @@ Even though external tools add an unnecessary amount of abstraction to your work
 
 ## Merging
 
-git checkout main utils/arc_utils.py to reset a file
+- merge one branch into your current one
+	```bash 
+	# merge branch "abc" into your current one
+	git merge abc
+	```
 
 ## Stashing
 
 
 ## Branching
+```bash
+# creates a new branch called "abc"
+git checkout -b abc
+
+# switch to the branch "xyz"
+git checkout xyz
+```
 
 ## Working with remote
 - TODO: git clone
@@ -116,7 +127,10 @@ git checkout main utils/arc_utils.py to reset a file
 		git pull —-rebase
 		```
 		After that, you can resolve the merge via your text editor and select the changes you want to keep. Then you can **commit the merge**.
-	
+- publish your changes
+	```bash
+	git push
+	```
 ## Fixing mistakes
 
 ## Advanced

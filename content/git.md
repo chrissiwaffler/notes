@@ -127,10 +127,7 @@ git checkout xyz
 		git pull —-rebase
 		```
 		After that, you can resolve the merge via your text editor and select the changes you want to keep. Then you can **commit the merge**.
-- publish your changes
-	```bash
-	git push
-	```
+
 ## Fixing mistakes
 
 ## Advanced
